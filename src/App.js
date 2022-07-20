@@ -7,7 +7,7 @@ import Appointment from './Pages/Appointment/Appointment/Appointment';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Routes>
         <Route path='/' element={<Home />}></Route>
